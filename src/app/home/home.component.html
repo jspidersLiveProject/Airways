@@ -1,0 +1,58 @@
+<div class="home">
+    <br>
+    <br>
+
+    <div class="contain">
+        <mat-card class="card">
+            <form>
+
+                <div class="elements123">
+                    <div class="formelements">
+                        <label>From</label>
+                        <input type="text" name="from" [(ngModel)]="from" placeholder="From">
+                    </div>
+                    <div class="formelements">
+                        <label>To</label>
+                        <input type="text" name="to" [(ngModel)]="to" placeholder="To">
+                    </div>
+                    <div class="formelements">
+                        <label>Adults (12+)</label>
+                        <select [(ngModel)]="passengers">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="elements123">
+                    <div class="formelements1">
+                        <label>Departure</label>
+                        <input type="date" name="depart" [(ngModel)]="depart">
+                    </div>
+                    <div class="formelements1">
+                        <label>Return</label>
+                        <input type="date" name="return" [(ngModel)]="return">
+                    </div>
+
+                    <div class="formelements">
+                        <label>Children (2-11)</label>
+                        <select [(ngModel)]="children">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <input type="submit" (click)="submit()" class="submit">
+
+                </div>
+            </form>
+        </mat-card>
+    </div>
+
+</div>

@@ -1,0 +1,9 @@
+<div  fxLayout="row" fxLayoutAlign="space-around center" class="heads">
+  <div style="cursor: pointer;" (click)="clicked('Home')"class="icon">Airways</div>
+  <div  fxFlex=50>
+      <div fxLayout="row" fxLayoutAlign="space-between center" >
+      <button mat-button color="primary" *ngFor="let feature of features" (click)="clicked(feature)">{{feature}}
+      </button>
+    </div>
+  </div>
+</div>

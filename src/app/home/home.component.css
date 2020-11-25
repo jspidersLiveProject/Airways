@@ -1,0 +1,66 @@
+
+.home{
+    min-height: 1000px;
+    margin: 0;
+    padding: 0;
+    background:url(../../assets/homeimg.jpg) no-repeat; 
+   
+      
+}
+
+.contain{
+    
+    margin:0 20%;
+
+}
+
+.card{
+    
+    width: 800px;
+    height:135px;
+   
+    background-color: white;
+    
+}
+.elements123{
+    display:flex;
+    padding-bottom: 20px;
+}
+
+.formelements label{
+    display:block;
+    
+}
+
+.formelements{
+    padding-right: 80px;
+}
+
+.formelements input[type="text"],select{
+    padding: 10px;
+    width: 100%;
+}
+
+.formelements1 input[type="date"]{
+    padding: 10px;
+    width: 85%;
+}
+
+.formelements1{
+    padding-right: 45px;
+}
+.submit{
+    background-color: #ff9933;
+    color: black; 
+    font-weight:bold;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.submit:hover{
+    background-color:rgb(253, 114, 63);
+   color: #2f2f2f;
+}
